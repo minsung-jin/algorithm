@@ -10,11 +10,11 @@ static int *peek(priorityQueue *q);
 static void heapify(priorityQueue *q, int i);
 static int checkOrder(int order, int a, int b);
 static struct priorityQueueOperations op = {
-    .peek = peek,
-    .empty = empty,
     .enqueue = enqueue,
     .dequeue = dequeue,
     .destory = destory
+    .empty = empty,
+    .peek = peek,
 };
 
 priorityQueue* createQueue(int order) {
@@ -33,12 +33,12 @@ static void destory(priorityQueue *q) {
     q = NULL;
 }
 
-static int* peek(priorityQueue *q) {
-    return q->heap;
-}
-
 static int empty(priorityQueue *q) {
     return q->size == 0;
+}
+
+static int* peek(priorityQueue *q) {
+    return q->heap;
 }
 
 static int enqueue(priorityQueue *q, int data) {
@@ -120,3 +120,4 @@ int main() {
 
     q->op->destory(q);
 }*/
+
