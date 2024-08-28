@@ -18,4 +18,17 @@
 * calloc, malloc, realloc, free
 * traverse, scanning
 * null pointer
+* cardinal number
+* decimal, octal, hexadecimal
+* increment, decrement
+* prime number, composite number
+* comma operator
+* multidimensional array
+* inline function
+* designated initializer
+* structure, structure tag, structure  member, structure content
+* dot operator, arrow operator
+* searching, key, linear search, sequential search, sentinel method
+* sort, binary search, ceiling function
+* complexity, time complexity, space complexity
 
