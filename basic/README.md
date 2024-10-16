@@ -31,4 +31,12 @@
 * searching, key, linear search, sequential search, sentinel method
 * sort, binary search, ceiling function
 * complexity, time complexity, space complexity
+* stack, LIFO, Last In First Out
+* queue, FIFO, First In First Out, en-queue, de-queue, front, rear
+* recursive, recursive definition, recursive call, factorial
+* greatest common divisor, euclidean method of mutual division
+* genuinely, top-down analysis, bottom-up analysis, tail recursion
+* memoization
+* towers of hanoi
+* 8-queen problem, C.F.Gauss, branching, bounding method
 
